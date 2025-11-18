@@ -25,5 +25,9 @@ def analyse():
     plt.title('Chest pain type distribution')
     plt.show()
 
+    plt.figure()
+    sns.histplot(x='Oldpeak', data=heart)
+    plt.title('Oldpeak distribution')
+    plt.show()
 
 analyse()
